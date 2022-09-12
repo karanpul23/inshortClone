@@ -1,0 +1,97 @@
+name: inshorts_assignment_karan
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^8.0.3
+  dartz: ^0.10.1
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.3
+  hive:
+  hive_flutter:
+  intl:
+  dio:
+  auto_route: ^5.0.1
+  webview_flutter: ^3.0.4
+  path_provider: ^2.0.11
+#  esys_flutter_share: ^1.0.2
+  provider: ^6.0.3
+  photo_view: ^0.14.0
+  font_awesome_flutter: ^10.2.1
+  fluttertoast: ^8.0.9
+  cached_network_image: ^3.2.1
+  permission_handler: ^10.0.0
+  import_sorter: ^4.6.0
+
+
+  flutter_localizations:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  bloc_test: ^9.0.3
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.10.0
+  auto_route_generator:
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/news_json/
+
+  uses-material-design: true
+  generate: true
+
+  fonts:
+    - family: HaveAGreatDay
+      fonts:
+        - asset: assets/fonts/HaveAGreatDay.ttf
+    - family: Mont
+      fonts:
+        - asset: assets/fonts/Mont-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Mont-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Mont-Book.ttf
+          weight: 400
+    - family: GoogleSans
+      fonts:
+        - asset: assets/fonts/GoogleSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/GoogleSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/GoogleSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/GoogleSans-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/GoogleSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/GoogleSans-Italic.ttf
+          weight: 400
+          style: italic
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/logo.png"
