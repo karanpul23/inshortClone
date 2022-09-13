@@ -8,7 +8,6 @@ import 'package:inshorts_assignment_karan/common/theme.dart';
 import 'package:inshorts_assignment_karan/common/widgets/animated_fade_in.dart';
 import 'package:inshorts_assignment_karan/common/widgets/responsive_layout_builder.dart';
 import 'package:inshorts_assignment_karan/l10n/l10n.dart';
-import 'package:inshorts_assignment_karan/routes/rouut.dart';
 import 'package:inshorts_assignment_karan/services/news/news_service.dart';
 
 class App extends StatelessWidget {

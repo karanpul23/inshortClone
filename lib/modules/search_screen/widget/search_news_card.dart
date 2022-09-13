@@ -39,7 +39,7 @@ class SearchNewsCard extends StatelessWidget {
                     child: article.urlToImage != null
                         //TODO
                         ? Image.network(
-                            article?.urlToImage ?? '',
+                            article.urlToImage ?? '',
                             fit: BoxFit.cover,
                           )
                         : Container(),
@@ -49,7 +49,7 @@ class SearchNewsCard extends StatelessWidget {
                       padding:
                           const EdgeInsets.only(left: 16.0, top: 8, bottom: 8),
                       child: Text(
-                        article?.title ?? '',
+                        article.title ?? '',
                         overflow: TextOverflow.fade,
                         style: TextStyle(
                             // color: AppColor.onBackground,
